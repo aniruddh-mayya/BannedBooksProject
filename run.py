@@ -1,6 +1,6 @@
 import google.genai as genai
 def check_banned(title, author):
-    API_KEY = "AIzaSyD8e6MpbO8uLTZvU4Ldxca2esUzgCfTkCg"
+    API_KEY = "" #add Gemini API key here to try it out
     genai.configure(api_key=API_KEY)
     model = genai.GenerativeModel("gemini-1.5-flash")
     prompt = f"""
